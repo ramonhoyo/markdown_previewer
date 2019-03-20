@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TextArea from '../src/components/TextArea'
+import Previewer from '../src/components/Previewer'
+import {defaultText} from './values/values'
 
 class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      text: defaultText
+    }
+    this.handleChangeText = this.handleChangeText.bind(this)
+  }
+
+  handleChangeText(event){
+    this.setState({
+      text: event.target.value
+    });
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div style={{fontSize:25}}>Made with ❤ by Andres Hoyo</div>
+        <TextArea onChangeText={this.handleChangeText} text={this.state.text}/>
+        <Previewer text={this.state.text}/>
       </div>
     );
   }
