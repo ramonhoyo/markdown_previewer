@@ -15,6 +15,6 @@ In the project directory, you can run:
 ## Preview  
     images  
 
-[image1](src/images/Captura.PNG)
-[image2](src/images/Captura2.PNG)
-[image3](src/images/Captura3.PNG)
+![image1](src/images/Captura.PNG)
+![image2](src/images/Captura2.PNG)
+![image3](src/images/Captura3.PNG)
