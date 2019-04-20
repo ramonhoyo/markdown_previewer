@@ -12,7 +12,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-## Preview
+## Preview  
+    images  
 
 [image1](src/images/Captura.PNG)
 [image2](src/images/Captura2.PNG)
