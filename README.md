@@ -1,14 +1,10 @@
-Markdown previewer
+# Markdown previewer
 
-This is part of freecodecamp projects. 
+## This is part of freecodecamp projects. 
+    https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer
 
-https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer
-
-Tecnology used
+## Technologies used
     -ReactJS
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -16,8 +12,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preview
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+[image1](src/images/Captura.PNG)
+[image2](src/images/Captura2.PNG)
+[image3](src/images/Captura3.PNG)
